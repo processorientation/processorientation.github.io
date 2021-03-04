@@ -1,8 +1,51 @@
 body, html {
     padding: 0;
     margin: 0;
-    background-color: #D4C0CB;}
+    background-color: #D4C0CB;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+    
+    
+}
+
+a:hover {color:cornflowerblue;}
 
 .room {
-     height: 100vh;
+    height: 100vh;
     background-size: cover;}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.header {
+padding: 10px;
+text-align: center;
+color: white;
+font-size: 15px;
+}
+
+#blocks {
+    
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-gap: 10px;
+
+}
+
+ #blocks .block {
+        position: relative;
+        
+        height: 300px;
+        min-height: 300px;
+        max-height: 300px;
+        width: 300px;
+        overflow: hidden;
+        overflow-y: auto;
+        line-height: 1.2;
+        box-sizing: border-box;
+    }
+}
+

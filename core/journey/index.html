@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!--Next: 
+  1.Add some stones and prepare images for button.
+  2.How to add image to button?
+  3.How do get rid of image border?
+  4.How to Add Hover
+  5.How to position?
+  6.Return Home Button 
+  -->
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Memento Garden</title>
+  <link href="styles.css" rel="stylesheet">
+  <script defer src="script.js"></script>
+</head>
+
+<body>
+
+<!---Modals-->
+<div> 
+  
+  <div>  
+  <button data-modal-target="#modal";>About This Page</button>
+  <div class="modal" id="modal">
+    <div class="modal-header">
+      <div class="title">About This Page (last update: 2021/03/01)</div>
+      <button data-close-button class="close-button">&times;</button>
+    </div>
+    <div class="modal-body">
+       <p>Here is where I dump some selected milestones, touchstones and momentos of stuff I've experienced.
+       </p>
+    </div>
+  </div>
+
+  <!--Keep about modal up top-->
+
+  <button data-modal-target="#modal2">ayyyy</button>
+  <div class="modal" id="modal2">
+    <div class="modal-header">
+      <div class="title">First UBike Alone</div>
+      <button data-close-button class="close-button">&times;</button>
+    </div>
+    <div class="modal-body">
+        sexy
+    </div>
+  </div>
+
+  <button data-modal-target="#modal3">template</button>
+  <div class="modal" id="modal3">
+    <div class="modal-header">
+      <div class="title">m2odal</div>
+      <button data-close-button class="close-button">&times;</button>
+    </div>
+    <div class="modal-body">
+        sexy modal
+    </div>
+  </div>
+</div>
+
+
+
+
+
+  <div id="overlay"></div>
+</body>
+</html>
